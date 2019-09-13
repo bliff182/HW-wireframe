@@ -4,13 +4,19 @@ body {
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
+    padding: 10px;
 }
 header, nav, section, aside, footer {
     background: #ebebeb;
+    text-align: center;
 }
 article {
     color: #ebebeb;
     background: #777;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
 }
 h1, p {
     color: #777;
@@ -18,4 +24,23 @@ h1, p {
 }
 section {
     width: 495px;
+    text-align: center;
+}
+.fullSpan {
+    padding: 37px;
+}
+aside {
+    width: 450px;
+    float: right;
+    text-align: top;
+    height: 170px
+}
+.container .halfSpan {
+    height:300px;
+}
+#inArticle {
+    height: 45px;
+    width: 350px;
+    display: inline-block;
+    color: #777;
 }

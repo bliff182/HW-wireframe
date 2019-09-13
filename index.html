@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Easier Layout</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <header>
-            header
-        </header>
-        <br> 
-        <nav>
-            nav 
-        </nav>
-        <aside>
+
+<head>
+    <title>Easier Layout</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header class="fullSpan">
+        header
+    </header>
+    <br>
+    <nav class="fullSpan">
+        nav
+    </nav>
+    <div class="container">
+        <aside class="halfSpan">
             <h1>aside</h1>
         </aside>
-        <section>
+        <section class="halfSpan">
             <h1>section</h1>
             <article>
-                <h1>article</h1>
-                <header>
+                <h2>article</h2>
+                <header id="inArticle">
                     h1, h2, h3
                 </header>
-                <p>
+                <p id="inArticle">
                     p
                 </p>
             </article>
         </section>
-        <footer>
-            footer 
-        </footer>
-    </body>
+    </div>
+    <br>
+
+    <footer class="fullSpan">
+        footer
+    </footer>
+
+
+</body>
+
 </html>
