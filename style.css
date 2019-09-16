@@ -23,7 +23,6 @@ article {
 }
 section {
     width: 495px;
-    float: left;
     padding: 10px;
 }
 .fullSpan {
@@ -33,7 +32,8 @@ section {
 aside {
     float: right;
     width: 420px;
-    height: 323px;
+    height: 313px;
+    padding-top: 10px
 }
 footer {
     clear: both;
