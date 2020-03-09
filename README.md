@@ -1,2 +1,3 @@
 # HW-wireframe
-bootcamp - first assignment
+
+This is a basic web skeleton demonstrating the basics of HTML/CSS.
